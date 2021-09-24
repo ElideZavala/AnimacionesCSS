@@ -9,4 +9,12 @@
     width: 100px;
     height: 100px;
     background-color: gold;
+    transition: all 1s ease;
+}
+
+.item:hover {
+    /* transform: translate(50px, 50px); */
+    /* transform: rotateY(50deg); */
+    /* transform: skew(50deg,40deg); */
+    
 }
