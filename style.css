@@ -1,8 +1,27 @@
 .container {
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    perspective: 100px;
+}
+
+.x {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%; 
+}
+
+.y {
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0; 
+    left: 50%;
 }
 
 .item {
@@ -10,11 +29,14 @@
     height: 100px;
     background-color: gold;
     transition: all 1s ease;
+    transform-origin: bottom right;
 }
 
 .item:hover {
     /* transform: translate(50px, 50px); */
     /* transform: rotateY(50deg); */
     /* transform: skew(50deg,40deg); */
-    
+    /* transform: translate(100px,150PX); */
+    /* transform: rotate3d(0,1,1,50deg); */
+    transform: rotate(45deg);
 }
