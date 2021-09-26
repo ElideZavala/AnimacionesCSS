@@ -61,4 +61,14 @@ span {
     justify-content: center;
     color: white;
     font-size: 30px;
+    transition: all 1.5s ease-out;
+}
+
+.button:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+}
+
+.button:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: 0.8;
 }
