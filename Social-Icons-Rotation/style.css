@@ -26,6 +26,9 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 50px;
+    position: absolute;
+    color: white;
+    transition: all .3s ease-in-out;
 }
 
 .button {
@@ -38,24 +41,64 @@ body {
     color: white;
     cursor: pointer;
     position: absolute;
+    transition: all .5s ease-in-out;
 }
 
-.bottom:nth-child(1) {
+.button:nth-child(1) {
     top: 0;
     left: 0;
+    border-radius: 10px 0 0 0;
 }
 
-.bottom:nth-child(2) {
+.button:nth-child(2) {
     top: 0;
     right: 0;
+    border-radius: 0 10px 0 0;
 }
 
-.bottom:nth-child(3) {
+.button:nth-child(3) {
     bottom: 0;
     left: 0;
+    border-radius: 0 0 0 10px ; 
 }
 
-.bottom:nth-child(4) {
+.button:nth-child(4) {
     bottom: 0;
     right: 0;
+    border-radius: 0 0 10px 0;
+}
+
+.icon-sm {
+    opacity: 0;
+}
+
+.container:hover .icon-sm {
+    opacity: 1;
+}
+
+.container:hover .main-icon {
+    transform: scale(5) rotate(45deg);
+}
+
+.container:hover .button {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.container:hover .button:nth-child(1) {
+    transform: translate(5px, -50px);
+}
+
+.container:hover .button:nth-child(2) {
+    transform: translate(50px, 5px);
+}
+
+.container:hover .button:nth-child(3) {
+    transform: translate(-50px, -5px);
+}
+
+.container:hover .button:nth-child(4) {
+    transform: translate(-5px, 50px);
 }
