@@ -30,12 +30,4 @@ body {
 .button:active {
     transform: rotateX(60deg) translateY(40px);
     box-shadow: 0 8px 0 0 rgb(202, 158, 134);
-    /* box-shadow: none; */
 }
-
-/* .container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
