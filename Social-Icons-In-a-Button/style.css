@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 * {
     margin: 0;
 }
@@ -7,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: lightyellow;
+    font-family: 'Courgette', cursive;
     height: 100vh;
 }
 
@@ -17,4 +20,34 @@ body {
     width: 120px;
     height: 50px;
     background-color: dodgerblue;
+    color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text {
+    transition: all 0.2s ease-in;
+}
+
+.container:hover .text{
+    transform: translateY(-50px);
 }
