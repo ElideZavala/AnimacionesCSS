@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten&family=Karla&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Courgette', cursive;
+	background-color: #ffbb00;
+	height: 100vh;
+	perspective: 900px;
+}
+
+.card {
+	width: 20%;
+	height: 80%;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px #555;
+	transform: rotateX(60deg) scale(.7);
+}
