@@ -1,3 +1,4 @@
+# Animaciones
 ## Social  Icons
 ![image](./Social-Icons/vista.gif)
 ****
@@ -9,8 +10,8 @@
 ![image](./Social-Icons-In-a-Button/vista.gif)
 ****
 ## Social Icons Layer
-![image](./Social-Icons-Icons-Layer/vista.gif)
+![image](./Social-Icons-Layer/vista.gif)
 ****
 ## Social Icons Rotation
-![image](./Social-Icons-Icons-Rotation/vista.gif)
+![image](./Social-Icons-Rotation/vista.gif)
 ****
