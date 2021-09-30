@@ -23,6 +23,32 @@ body {
 	width: 150px;
 	height: 100%;
 	background-color: lightcoral;
+	position: relative;
+}
+
+.person {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgb(247, 234, 62);
+	position: relative;
+}
+
+.eyes {
+	width: 25px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	left: 12.5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.eye {
+	width: 6px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%
 }
 
 .text-container {
@@ -33,3 +59,8 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+.text {
+	font-size: 20px;
+	font-weight: bold;
+}                  
