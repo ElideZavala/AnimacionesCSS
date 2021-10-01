@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten&family=Karla&display=swap');
+* {
+	margin: 0;
+ }
+ 
+ body {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 font-family: 'Courgette', cursive;
+	 font-size: 50px;
+	 height: 100vh;
+	 background-color: black;
+ }
+
+ .container {
+	 width: 75px;
+	 height: 75px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 background-color: coral;
+	 border-radius: 50%;
+	 position: relative;
+ }
+
+
+ 
+ 
