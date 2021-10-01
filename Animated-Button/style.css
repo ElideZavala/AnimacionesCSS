@@ -44,6 +44,20 @@ body {
 	justify-content: space-between;
 }
 
+.mouth {
+	width: 35px;
+	height: 20px;
+	background-color: black;
+	border-radius: 0 0 60px 60px;
+	position: absolute;
+	top: 25px;
+	left: 7.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 .eye {
 	width: 6px;
 	height: 10px;
