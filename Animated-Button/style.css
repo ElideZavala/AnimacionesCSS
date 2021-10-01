@@ -24,7 +24,7 @@ body {
 	height: 2px;
 	background-color: black;
 	border-radius: 10px;
-	transition: transform 1s ease;
+	transition: transform 1s ease, opacity .5s ease;
 	transform-origin: left;
 }
 

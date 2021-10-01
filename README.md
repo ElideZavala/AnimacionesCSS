@@ -26,3 +26,7 @@
 ## Animated Button
 ![image](./Animated-Button/vista.gif)
 ****
+
+## Animated Menu
+![image](./Animated-Menu/vista.gif)
+****
