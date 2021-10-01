@@ -57,6 +57,28 @@ body {
 	justify-content: center;
 }
 
+.smiling-person {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+}
+
+.surprised-person {
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+}
+
+.box {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+	width: 50px;
+	height: 50%;
+	background-color: #fff;
+	position: relative;
+	top: 20px;
+	left: 52px;
+	transform: rotate(180deg);
+}
 
 .eye {
 	width: 6px;
