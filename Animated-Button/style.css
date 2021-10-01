@@ -24,6 +24,8 @@ body {
 	height: 2px;
 	background-color: black;
 	border-radius: 10px;
+	transition: transform 1s ease;
+	transform-origin: left;
 }
 
 .menu-container {
@@ -31,7 +33,13 @@ body {
 	height: 400px;
 	padding: 20px;
 	position: relative;
-	/* left: -150px; */
+	font-weight: 700;
+	left: -150px;
+	transition: all 1s ease;
+}
+
+.menu-container.active{
+	transform: translateX(150px);
 }
 
 ul {
@@ -40,4 +48,16 @@ ul {
 
 li {
 	margin-bottom: 20px;
+}
+
+.line-container.active .line-1{
+	transform: rotate(45deg);
+}
+
+.line-container.active .line-2{
+	opacity: 0;
+}
+
+.line-container.active .line-3{
+	transform: rotate(-45deg);
 }
