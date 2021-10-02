@@ -21,9 +21,10 @@ img {
 .box {
 	width: 200px;
 	height: 200px;
-	/* background-color: 5px solid lightskyblue; */
-	border: 5px solid lightskyblue;
+	background-color: 5px solid lightsteelblue;
+	border: 5px solid lightsteelblue;
 	position: relative;
+	overflow: hidden;
 }
 
 .box::before {
@@ -42,5 +43,15 @@ img {
 	content: "";
 	width: 200%;
 	height: 200%;
-	x`	x
+	background-color: lightskyblue;
+	position: absolute;
+	border-radius: 30%;
+	left: -50%;
+	animation: wave 6s ease-in-out infinite;
+}
+
+@keyframes wave {
+	to {
+		transform: translateY(-80%) rotate(500deg);
+	}
 }
