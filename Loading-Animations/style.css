@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten&family=Karla&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Gluten', cursive;
+	height: 100vh;
+	background-color: lightgreen;
+}
+
+.container {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: coral;
+}
+
+.circle-container {
+	display: flex;
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 10px;
+	animation: loading .5s alternate infinite;
+}
+
+.circle-1 {
+	background-color: tomato;
+}
+
+.circle-2 {
+	background-color: salmon;
+}
+
+.circle-3 {
+	background-color: coral;
+}
+
+@keyframes loading {
+	100% {
+		opacity: 1;
+	}
+}
