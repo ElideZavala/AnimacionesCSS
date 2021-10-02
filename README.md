@@ -45,6 +45,9 @@
 ## Text Animation
 ![image](./Text-Animation/vista.gif)
 ****
-## Poseidon-Wave-Animation
+## Poseidon Wave Animation
 ![image](./Poseidon-Wave-Animation/vista.gif)
+****
+## Wave Animation Text
+![image](./Wave-Animation-Text/vista.gif)
 ****
