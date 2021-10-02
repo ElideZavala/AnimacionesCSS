@@ -21,11 +21,21 @@ h1 {
 }
 
 h1::before {
-	content: "WEB DESING";
+	content: "WEB DESIGN";
 	color: cadetblue;
 	text-shadow: none;
 	position: absolute; 
 	top: 0;
 	left: 0;
+	width: 0px;
+	overflow: hidden;
 	border-right: 20px solid cadetblue;
+	white-space: nowrap;
+	animation: move 3s linear infinite;
+}
+
+@keyframes move {
+	to {
+		width: 100%;
+	}
 }
