@@ -42,3 +42,6 @@
 ## Heart-Beat
 ![image](./Heart-Beat/vista.gif)
 ****
+## Text Animation
+![image](./Text-Animation/vista.gif)
+****
