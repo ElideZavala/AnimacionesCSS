@@ -51,3 +51,6 @@
 ## Wave Animation Text
 ![image](./Wave-Animation-Text/vista.gif)
 ****
+## Loading-Animations
+![image](./Loading-Animations/vista.gif)
+****
