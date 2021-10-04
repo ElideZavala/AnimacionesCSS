@@ -20,12 +20,38 @@
 
  .row-top {
 	 display: flex;
-	 /* align-items: baseline; */
+	 align-items: baseline;
 	 position: relative;
+ }
+
+ .row-top::before {
+	 content: "";
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 background-color: gold;
+	 animation: moveBox 2s cubic-bezier(0,.5,.5,0) forwards;
  }
 
  .title {
 	 font-size: 30px;
 	 font-weight: bold;
 	 margin-right: 5px;
+ }
+
+ .dot {
+	 width: 7px;
+	 height: 7px;
+	 border-radius: 50%;
+	 background-color: gold;
+ } 
+
+ @keyframes moveBox {
+	 0% {
+		 left: -200px;
+	 }
+	 100% {
+		 left: 100%;
+	 }
+
  }
