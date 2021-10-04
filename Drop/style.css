@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten&family=Karla&display=swap');
+* {
+	margin: 0;
+ }
+ 
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Karla', serif;
+	height: 100vh;
+	background-color: lightcyan
+}
+
+h1 {
+	font-size: 100px;
+	color: slateblue;
+}
+
+.container {
+	position: relative;
+}
+
+.drop {
+	width: 27px;
+	height: 25px;
+	background-color: slateblue;
+	clip-path: ellipse(25% 40% at 50% 50%);
+	position: absolute;
+	bottom: 70;
+	animation: move 3s cubic-bezier(0,.5,.9,.1) infinite;
+}
+
+@keyframes move {
+	to {
+		transform: translateY(300px);
+	}
+}
