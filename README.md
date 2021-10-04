@@ -54,3 +54,6 @@
 ## Loading-Animations
 ![image](./Loading-Animations/vista.gif)
 ****
+## Drop
+![image](./Drop/vista.gif)
+****
