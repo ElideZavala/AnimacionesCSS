@@ -27,6 +27,7 @@ h1 {
 	background-color: slateblue;
 	clip-path: ellipse(25% 40% at 50% 50%);
 	position: absolute;
+	top: 30px;
 	bottom: 70;
 	animation: move 3s cubic-bezier(0,.5,.9,.1) infinite;
 }
