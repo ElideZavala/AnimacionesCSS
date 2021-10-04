@@ -57,3 +57,6 @@
 ## Drop
 ![image](./Drop/vista.gif)
 ****
+## Designer Text Animation
+![image](./Designer-Text-Animations/vista.gif)
+****
