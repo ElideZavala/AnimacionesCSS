@@ -17,6 +17,7 @@ body {
 	height: 100px;
 	background-color: #fff;
 	display: flex;
+	overflow: hidden;
 }
 
 .interactive-container {
@@ -32,6 +33,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-weight: bold;
 }
 
 .card {
@@ -40,8 +42,8 @@ body {
 	background-color: rgb(135, 250, 215);
 	border-radius: 5px;
 	position: absolute;
-	top: 10px;
-	left: 5px;
+	top: 30px;
+	left: 40px;
 }
 .card-circles {
 	position: absolute;
@@ -80,6 +82,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	transition: transform .4s .2s;
 }
 
 .post-line {
@@ -113,6 +116,7 @@ body {
 
 .post-text {
 	opacity: 0;
+	transition-delay: 1s;
 }
 
 .post-numbers {
@@ -133,3 +137,19 @@ body {
 	animation: moveCard 1.2s ease forwards;
 }
 
+@keyframes moveCard {
+	50% {
+		transform: rotate(-90deg) scale(0.8) translateX(70px);
+	}
+	100% {
+		transform: rotate(-90deg) scale(0.8) translateX(0px);
+	}
+}
+
+.container:hover .post {
+	transform: translateY(-70px);
+}
+
+.container:hover .post-text {
+	opacity: 1;
+}
