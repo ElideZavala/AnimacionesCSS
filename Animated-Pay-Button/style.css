@@ -81,3 +81,55 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
+
+.post-line {
+	width: 50px;
+	height: 10px;
+	background-color: gray;
+	position: relative;
+}
+
+.post-line::before {
+	content: "";
+	width: 50px;
+	height: 10px;
+	background-color: rgb(78, 77, 77);
+	position: absolute;
+	bottom: -10px;
+	border-radius: 0 0 10px 10px;
+}
+
+.post-screen {
+	width: 50px;
+	height: 30px;
+	background-color: whitesmoke;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: teal;
+	font-weight: bold;
+}
+
+.post-text {
+	opacity: 0;
+}
+
+.post-numbers {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.post-number {
+	margin: 5px;
+	width: 10px;
+	height: 10px;
+	background-color: gray;
+}
+
+.container:hover .card {
+	animation: moveCard 1.2s ease forwards;
+}
+
