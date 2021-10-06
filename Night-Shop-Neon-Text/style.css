@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gluten&family=Karla&display=swap');
+* {
+	margin: 0;
+ }
+ 
+ body {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 font-family: 'Courgette', cursive;
+	 height: 100vh;
+	 background-image: url("./Guerrero.jpg")
+ }
+
+ h1 {
+	 font-size: 50px;
+	 color: white;
+	 font-weight: 100;
+	 animation: glow ease-in-out 1s alternate infinite;
+	 /* text-shadow:  0 0 10px red, 0 0 5px blue, 0 0 20px yellow, 1px 1px 10px black; */
+ }
+
+ sup {
+	 font-size: 25px;
+ }
+
+ @keyframes glow {
+	from {
+		text-shadow: 0 0 10px white,  0 0 20px white,  0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	to {
+		text-shadow: 0 0 20px white,  0 0 30px white,  0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073, 0 0 80px #e60073;
+	
+	}
+ }
