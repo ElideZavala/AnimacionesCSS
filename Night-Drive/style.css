@@ -17,7 +17,7 @@
 	   rgba(138, 82, 141, 1) 100%
 	 );
 	 position: relative;
-	 perspective: 100px;
+	 perspective: 800px;
  }
 
  .sun {
@@ -55,4 +55,25 @@
 	 background-image: url("grid.png");
 	 transform: rotateX(90deg);
 	 transform-origin: bottom;
+	 animation: road 1s linear infinite;
+ }
+
+ @keyframes road {
+	 to {
+		 transform: rotateX(90deg) translateX(-480px);
+	 }
+ }
+
+ img {
+	width: 300px;
+	position: absolute;
+	left: 200px;
+	bottom: 100px;
+	animation: car 0.2s alternate infinite;
+ }
+
+ @keyframes car {
+	 to {
+		 transform: translateY(1px);
+	 }
  }
