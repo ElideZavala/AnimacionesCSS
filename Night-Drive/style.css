@@ -17,6 +17,7 @@
 	   rgba(138, 82, 141, 1) 100%
 	 );
 	 position: relative;
+	 perspective: 100px;
  }
 
  .sun {
@@ -43,4 +44,15 @@
 	to {
 		box-shadow: 0 0 50px yellow;
 	}
+ }
+ 
+ .road {
+	 width: 500%;
+	 height: 50%;
+	 background-color: black;
+	 position: absolute;
+	 bottom: 0;
+	 background-image: url("grid.png");
+	 transform: rotateX(90deg);
+	 transform-origin: bottom;
  }
