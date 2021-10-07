@@ -65,8 +65,8 @@
 ****
 
 ## Night Shop Neon text
-![image](./Night-Shop-Neon-text/vista.gif)
+![image](./Night-Shop-Neon-text/vista1.gif)
 ****
 ## Night-Drive
-![image](./Night-Drive/vista.gif)
+![image](./Night-Drive/vista1.gif)
 ****
